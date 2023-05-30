@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import Tasks from '../views/Tasks.vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import TodoList from '../views/TodoList.vue'
@@ -27,6 +28,11 @@ const routes = [
     path: '/todos-issues',
     name: 'TodosIssues',
     component: TodosIssues
+  },
+  {
+    path: '/tasks',
+    name: 'Tasks',
+    component: Tasks
   },
 ]
 
